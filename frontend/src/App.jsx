@@ -20,7 +20,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/chat", {
+      const response = await fetch("https://medical-chatbot-2q3r.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
